@@ -10,7 +10,7 @@ pipeline{
                sh 'docker build -t dockerfile .'
                
             }
-        }/*
+        }
         stage('SonarQube Analytics') {
             steps {
                 withSonarQubeEnv('sonarserver') {
@@ -18,4 +18,4 @@ pipeline{
         }
      }
     }
-
+    }
