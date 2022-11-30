@@ -8,7 +8,6 @@ pipeline{
             steps{
                sh 'mvn clean install'
                sh 'docker build -t dockerfile .'
-               
             }
         }
         stage('SonarQube Analytics') {
