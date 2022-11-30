@@ -1,2 +1,2 @@
 FROM tomcat:latest
-COPY /target/maven-helloworld0.1.0.jar  /usr/local/tomcat/webapps/maven-helloworld-0.1.0.jar
+COPY /target/jb-hello-world-maven-0.2.0.jar  /usr/local/tomcat/webapps/jb-hello-world-maven-0.2.0.jar
